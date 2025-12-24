@@ -1,0 +1,157 @@
+	    
+        *{
+	  		margin:  0px;
+	  		border:  0px;
+	  		padding: 0px;
+	  	 }
+
+    body{
+    	    background-color:rgb(150,101,21);
+          overflow: hidden;
+          justify-content: space-between;
+	       border: solid  px;
+          width: 100%;
+          max-width: 1000px;
+          margin: 0 auto;
+	       border-radius: 0px;
+	       color:#fff;
+	       padding:1%;
+          flex: wrap;
+	     }
+
+  header{   
+	  	
+	     background: linear-gradient(to left,#00a0cf,#a87b05,#664300);
+        overflow: hidden;
+        justify-content: space-between;
+        width: 100%;
+        max-width:1000px;
+        margin: 0 auto;
+        flex: wrap;
+	     text-align: center;
+	     border-radius: 30px;
+	     padding: 1%;
+	  	    
+	  	}
+            
+    
+ footer{
+
+	     background-color:#00a0cf ;
+        overflow: hidden;
+        justify-content: space-between;
+        width:100% ;
+        max-width:1000px;
+        flex: wrap;
+        border-radius: 25px;
+        margin: 0 auto;
+        padding: 1%;
+        color:#000;
+        text-align:center; 
+        font-size: 5px;
+        font-family: arial;      
+         
+       } 
+
+section{
+       	
+        border-radius:rgb(150,101,21); 
+        overflow: hidden;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1%;
+        font-family: arial;
+        flex: wrap;
+
+      }
+       
+
+
+    h1{
+			
+	    font-size: 7px;
+       color: #fff;
+	    font-family: arial;
+	    text-align:center;
+	    padding: 1%;
+     
+      }
+
+   
+    h2{
+
+       background-color: #000;
+       color: white;
+       border-radius: 9.5px;
+       font-size: 6px;
+       font-family: arial;
+       text-align: center;
+       padding: 0px;
+
+      }
+   
+   h3{
+       color:#000;
+       border-radius:15px;
+       font-size: 7px;
+       font-family:arial;
+     }
+
+
+
+   figure{ text-align: center;
+
+         }
+
+            
+
+   p{  text-align: justify;
+       font-family: arial;
+       font-size: 8px;                                            
+       color: #000;
+    }
+
+
+
+            a{
+              background-color:rgb(0,0,0);
+              color: rgb(255,255,255);
+              padding: 3px;
+              border-radius:6px;
+              font-size:  10px;
+              text-decoration: none;
+                
+             }
+
+
+
+       .imagens-corpo{
+        width: 100px;
+        height: 10%;
+        padding: 0.1px; 
+       
+     }
+
+
+        @media(min-width:300px)  and  (max-width: 300px){  
+
+      .imagens-corpo { width:  100px;
+                       height: 10%;
+            }
+           
+
+
+             @media(min-width 100px)  and (max-width: 100px) 
+
+      #wifi  { width:  100px;
+               height: 10%;
+             }
+           
+
+       }
+
+
+
+             
